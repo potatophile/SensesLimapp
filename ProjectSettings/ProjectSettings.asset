@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: Liminal
-  productName: TemplateLimapp
+  productName: SensesLimapp
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -119,7 +119,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 1
+  bundleVersion: 1.0
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -160,8 +160,8 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.Liminal.TemplateLimapp
-    Standalone: com.Liminal.TemplateLimapp
+    Android: com.Liminal.SensesLimapp
+    Standalone: com.Liminal.SensesLimapp
   buildNumber: {}
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 24
@@ -634,7 +634,7 @@ PlayerSettings:
   webGLWasmStreaming: 0
   scriptingDefineSymbols:
     1: LIMINAL_REST_VERBOSE;LIMINAL_GEARVR;DEBUG;UNITY_POST_PROCESSING_STACK_V2
-    7: CURVEDUI_TMP;UNITY_POST_PROCESSING_STACK_V2
+    7: CURVEDUI_TMP;UNITY_POST_PROCESSING_STACK_V2;UNITY_XR;UNITY_XR
     13: UNITY_POST_PROCESSING_STACK_V2
     19: UNITY_POST_PROCESSING_STACK_V2
     21: UNITY_POST_PROCESSING_STACK_V2
