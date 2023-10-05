@@ -12,8 +12,8 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: Liminal
-  productName: SensesLimapp
+  companyName: liminal
+  productName: zense
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -160,12 +160,12 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.Liminal.SensesLimapp
+    Android: com.liminal.zenselimapp
     Standalone: com.Liminal.SensesLimapp
   buildNumber: {}
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 24
-  AndroidTargetSdkVersion: 0
+  AndroidTargetSdkVersion: 28
   AndroidPreferredInstallLocation: 0
   aotOptions: 
   stripEngineCode: 1
@@ -384,7 +384,6 @@ PlayerSettings:
     m_Enabled: 1
     m_Devices:
     - Oculus
-    - None
   - m_BuildTarget: Standalone
     m_Enabled: 1
     m_Devices:
@@ -406,6 +405,8 @@ PlayerSettings:
     m_EncodingQuality: 1
   - m_BuildTarget: PS4
     m_EncodingQuality: 1
+  - m_BuildTarget: Android
+    m_EncodingQuality: 0
   m_BuildTargetGroupLightmapSettings: []
   playModeTestRunnerEnabled: 0
   runPlayModeTestAsEditModeTest: 0
@@ -634,7 +635,7 @@ PlayerSettings:
   webGLWasmStreaming: 0
   scriptingDefineSymbols:
     1: LIMINAL_REST_VERBOSE;LIMINAL_GEARVR;DEBUG;UNITY_POST_PROCESSING_STACK_V2
-    7: CURVEDUI_TMP;UNITY_POST_PROCESSING_STACK_V2;UNITY_XR;UNITY_XR
+    7: CURVEDUI_TMP;UNITY_POST_PROCESSING_STACK_V2
     13: UNITY_POST_PROCESSING_STACK_V2
     19: UNITY_POST_PROCESSING_STACK_V2
     21: UNITY_POST_PROCESSING_STACK_V2
