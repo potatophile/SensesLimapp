@@ -302,13 +302,13 @@ GameObject:
   - component: {fileID: 479566175}
   - component: {fileID: 479566177}
   - component: {fileID: 479566176}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Smoke
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &479566175
 Transform:
   m_ObjectHideFlags: 0
@@ -359,8 +359,8 @@ ParticleSystemRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1456940321
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_RenderMode: 0
   m_SortMode: 0
@@ -953,7 +953,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 53
+    maxNumParticles: 50
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -5148,7 +5148,7 @@ GameObject:
   - component: {fileID: 563947198}
   - component: {fileID: 563947201}
   - component: {fileID: 563947202}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5563,7 +5563,7 @@ GameObject:
   - component: {fileID: 873644265}
   - component: {fileID: 873644267}
   - component: {fileID: 873644266}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Inner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5597,7 +5597,7 @@ ParticleSystemRenderer:
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_MotionVectors: 1
-  m_LightProbeUsage: 0
+  m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
@@ -5622,7 +5622,7 @@ ParticleSystemRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3000
   m_RenderMode: 0
   m_SortMode: 0
   m_MinParticleSize: 0
@@ -10580,7 +10580,7 @@ PrefabInstance:
     - target: {fileID: 3263278499122879584, guid: 635e5fc3708d43640958ab15f7b02b51,
         type: 3}
       propertyPath: m_Mode
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3263278499122879584, guid: 635e5fc3708d43640958ab15f7b02b51,
         type: 3}
@@ -10632,6 +10632,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7bccb2140d1639748a0d4063ebcddcd1, type: 2}
+    - target: {fileID: 638330112548520000, guid: 635e5fc3708d43640958ab15f7b02b51,
+        type: 3}
+      propertyPath: m_ProbeAnchor
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 638330112548520002, guid: 635e5fc3708d43640958ab15f7b02b51,
         type: 3}
       propertyPath: m_DisablePixelLights
@@ -10640,7 +10645,12 @@ PrefabInstance:
     - target: {fileID: 638330112548520002, guid: 635e5fc3708d43640958ab15f7b02b51,
         type: 3}
       propertyPath: m_TextureSize
-      value: 512
+      value: 2048
+      objectReference: {fileID: 0}
+    - target: {fileID: 638330112548520002, guid: 635e5fc3708d43640958ab15f7b02b51,
+        type: 3}
+      propertyPath: m_ReflectLayers.m_Bits
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 638330112548520012, guid: 635e5fc3708d43640958ab15f7b02b51,
         type: 3}
@@ -11218,7 +11228,7 @@ GameObject:
   - component: {fileID: 1626568151}
   - component: {fileID: 1626568153}
   - component: {fileID: 1626568152}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Outer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11252,7 +11262,7 @@ ParticleSystemRenderer:
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_MotionVectors: 1
-  m_LightProbeUsage: 0
+  m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
@@ -11275,10 +11285,10 @@ ParticleSystemRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_RenderMode: 0
+  m_SortingLayerID: 1456940321
+  m_SortingLayer: 1
+  m_SortingOrder: 3000
+  m_RenderMode: 3
   m_SortMode: 0
   m_MinParticleSize: 0
   m_MaxParticleSize: 0.9
@@ -11300,7 +11310,7 @@ ParticleSystemRenderer:
   m_Mesh1: {fileID: 0}
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
-  m_MaskInteraction: 0
+  m_MaskInteraction: 2
 --- !u!198 &1626568153
 ParticleSystem:
   m_ObjectHideFlags: 0
@@ -11869,7 +11879,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 5
+    maxNumParticles: 8
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -12134,14 +12144,14 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.5
+      scalar: 1
       minScalar: 0.5
       maxCurve:
         serializedVersion: 2
         m_Curve:
         - serializedVersion: 3
-          time: 0
-          value: 1
+          time: 0.0043678284
+          value: 0.90540695
           inSlope: 0
           outSlope: 0
           tangentMode: 0
@@ -12149,8 +12159,17 @@ ParticleSystem:
           inWeight: 0.33333334
           outWeight: 0.33333334
         - serializedVersion: 3
-          time: 1
-          value: 1
+          time: 0.47044486
+          value: 0.68578714
+          inSlope: -0.36857012
+          outSlope: -0.36857012
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.991272
+          value: 0.6621628
           inSlope: 0
           outSlope: 0
           tangentMode: 0
